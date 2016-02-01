@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: HelloWorldTest1-v1
+  name: HelloWorldTest1
+  memory: 64M
+  stack: cflinuxfs2
